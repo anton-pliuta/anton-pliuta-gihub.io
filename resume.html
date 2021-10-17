@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Антон Плюта. Дизайнер интерфейсов.</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+    @media screen and (max-width: 1024px) {
+        .contact {
+            flex-direction: column;
+        }
+
+        .main {
+            margin-left: 30% !important;
+        }
+
+        .contact>* {
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .main {
+            margin-left: 20px !important;
+        }
+
+        .contact {
+            flex-direction: row;
+        }
+
+        body {
+            padding-top: 100px !important;
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+        .f-row-container {
+            flex-direction: column!important;
+        }
+
+        .max-width-50per {
+            max-width: 100%!important;
+        }
+    }
+
+
+    body {
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-weight: normal;
+    }
+
+    h2 {
+        font-weight: 600;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    * {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #272930;
+    }
+
+    a {
+        text-decoration: none;
+        color: #b61515
+    }
+
+    .link-container {
+        border: 2px solid #272930;
+        border-radius: 100px;
+        background-color: white;
+    }
+
+    .link-item {
+        padding: 10px;
+        border-radius: 100px;
+        background-color: black;
+        color: white;
+        font-weight: 500;
+    }
+
+    .link-item-outlined {
+        padding: 10px;
+        border-radius: 100px;
+        background-color: white;
+        color: black;
+        font-weight: 500;
+        border: 2px solid black;
+        margin: 16px 0 16px 0;
+    }
+
+    .link-item-default {
+        color: black;
+        background-color: white;
+        border: none;
+        font-weight: 500;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40%;
+    }
+
+    .lang {
+        display: flex;
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .contact {
+        display: flex;
+        position: fixed;
+        left: 20px;
+        top: 20px;
+    }
+
+    .f-row-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+    .f-row-col-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+    .max-width-80per {
+        max-width: 80%;
+    }
+
+    .max-width-50per {
+        max-width: 50%;
+    }
+
+    .t-itallic {
+        font-style: italic;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 8px 0;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    h4 {
+        margin: 8px 0;
+        font-weight: 600;
+    }
+
+    li {
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+</style>
+
+<body>
+    <div class="contact-container">
+        <div class="contact">
+            <a style="margin: 0" class="link-item-outlined" href="#">Телеграм</a>&nbsp;
+            <a style="margin: 0" class="link-item-outlined" href="#"> Почта</a>&nbsp;
+            <a style="margin: 0" class="link-item-outlined" href="#"> Behance</a>
+        </div>
+    </div>
+    <div class="lang-container">
+        <div class="lang link-container">
+            <a class="link-item" href="#">Русский</a>&nbsp;&nbsp;<a class="link-item link-item-default"
+                href="#">English</a>
+        </div>
+    </div>
+    <div class="main">
+        <h1><i><b>Антон Плюта.</b></br> Дизайнер интерфейсов (веб, мобайл).</i></h1>
+        <img src="./1.jpg" alt="" height="350px" width="270px">
+        <h2><i>Мои навыки</i></h2>
+        <div>
+            <p class="max-width-80per t-itallic short-descr">Привет! На протяжении 2-х лет я занимаюсь дизайном
+                интерфейсов. Имею техничесский бекграунд и опыт работы с веб-иллюстрацией. <i
+                    style="font-weight: 500;">Я могу создавать интерфейсы для информационных сайтов, интернет-магазинов,
+                    мобильных приложения, панелей управления, веб и мобильных сервисов любых типов.</i></p>
+            <ul>
+                <p class="max-width-80per" style="font-weight: 500;">Мои hard скилы</p>
+                <li>провести интервью с заказчиком и узнать ключевые требования к проекту.</li>
+                <li>сформировать целевую аудиторию.</li>
+                <li>провести опрос и интервью с пользователями.</li>
+                <li>составить персоны пользователей.</li>
+                <li>использовать JTBD и HMW для обозначения необходимых задач и поиску их решения.</li>
+                <li>нарисовать CJM на основе сформированных персон пользователей.</li>
+                <li>провести конкурентный анализ.</li>
+                <li>сформировать алгоритм работы продукта используя блок-схемы.</li>
+                <li>нарисовать User flow продукта.</li>
+                <li>нарисовать lo-fi и hi-fi прототипы.</li>
+                <li>анимировать интерфейсы используя After Effects, Principle или Figma.</li>
+                <li>провести юзабилити тесторование прототипов на пользователях.</li>
+                <li>составить UI-кит или использовать чужой.</li>
+                <li>использовать компоненты, автолейауты, фреймы, привязки(constraints) и грамотно работать с ними в
+                    Figma.</li>
+                <li>подготавливать макеты для разработки в Figma.</li>
+                <li>делать адаптивные версии макета учитывая все особенности устройства.</li>
+            </ul>
+            <ul>
+                <p class="max-width-80per" style="font-weight: 500;">Мои soft скилы</p>
+                <li>Умею заговорить с кем угодно, о чем угодно, но только когда это необходимо.</li>
+                <li>Умею понять людей разных типов и их мотивацию.</li>
+                <li>Умею презентовать и защитить своё мнение.</li>
+                <li>Могу убеждать людей в своих решениях, и не поддаваться на давление.</li>
+                <li>Могу взаимодействовать с клиентом, разработчикам и иллюстраторами.</li>
+                <li>Приходилось решать конфликтные ситуации при создании продукта.</li>
+                <li>Стараюсь всегда учиться и следить за новинками, но не гнаться за ними.</li>
+            </ul>
+            <ul>
+                <p class="max-width-80per" style="font-weight: 500;">Я знаю:</p>
+                <li><span style="font-weight: 600;">английский</span> на уровне уверенного письменного и неуверенного
+                    устного общения.</li>
+                <li>техничесскую сторону работы сайтов, веб-приложений и мобильных приложений.</li>
+                <li>основные принципы дизайн мышления и дизайн спринтов.</li>
+                <li>принципы HIG и Material design.</li>
+                <li>как работать с цветами, композицией и типографикой</li>
+                <li>как и где получить необходимые знания для работы.</li>
+            </ul>
+            <ul>
+                <p class="max-width-80per" style="font-weight: 500;">Я хочу:</p>
+                <li>работать с командой таких же интузиастов как и я.</li>
+                <li>создавать удобные сервисы которые решают проблемы людей.</li>
+                <li>быть частью компании, которая заинтересована в моем проффесиональном развитии.</li>
+                <li>работать над проектом от А до Я.</li>
+                <li>получить регулярный фидбек о своей работе.</li>
+                <li>возможность ходить в офис, но иногда работать удаленно.</li>
+                <li>иметь фиксированный график работы.</li>
+            </ul>
+        </div>
+        <h2><i>Задачи, которые я решал</i></h2>
+
+        <div>
+            <div class="f-row-container">
+                <h4>UI\UX дизайн. Мобильное приложение Viteye.</h4>
+                <p>Август 2021 - Октябрь 2021</p>
+            </div>
+            <p class="max-width-80per t-itallic">Viteye - это сервис для диагностирования злокачественных образований на
+                коже (меланомы) с помощью камеры смартфора и дерматоскопа.</p>
+            <p class="max-width-80per t-itallic">На данный момент была закончена робота по клиентской части сервиса. В
+                будушем планируеться создать приложение для докторов, администраторов, оформление подписки, и Landing
+                page для продукта.</p>
+            <ul>
+                <li>Исследование рынка и формирование целевой аудитории.</li>
+                <li>Исследование необходимых сценариев пользователей.</li>
+                <li>Создание функциональной карты приложения.</li>
+                <li>Создание lo-fi, hi-fi прототипов.</li>
+                <li>Создание доски настроения</li>
+                <li>Создание интерактивных прототипов и финального макета в Figma.</li>
+            </ul>
+            <div class="f-row-col-container">
+                <a class="link-item-outlined" href="#">Кейс</a>
+            </div>
+        </div>
+        <div>
+            <div class="f-row-container">
+                <h4 class="max-width-50per">UI\UX дизайн, разработка на Tilda. Интернет-магазин для украинского бренда
+                    одежды Tserkovnij.</h4>
+                <p>Апрель 2021 - Август 2021</p>
+            </div>
+            <p class="max-width-80per t-itallic">Tserkovnij - бренд одежды одного человека, идеи которого мне очень
+                близки. А именно минимализм и функциональность. Работа с Сашей не только была гладкой и понятной для нас
+                обоих, но и вдохновила меня на новые идеи. Я считаю, что данный проект помог в формировании мох
+                принципов в дизайне.</p>
+
+            <p class="max-width-80per t-itallic">Tserkovnij нуждался в инструменте для продаж и порталом для публикации
+                новостей, хранение архивных фото и публикации истории создания некоторых изделий.</p>
+
+            <ul>
+                <li>Интервью с заказчиком и выяснение ключевых задач.</li>
+                <li>Анализ рынка и конкурентов.</li>
+                <li>Опрос пользователей целевой аудитории.</li>
+                <li>Создание персон пользователей.</li>
+                <li>Использовал метод How Might We для выяснения решений ключевых потребностей пользователей.</li>
+                <li>Создание доски настроения будущего дизайна.</li>
+                <li>Создание lo-fi, hi-fi прототипов.</li>
+                <li>Создание финального макета и разработка сайта на Tilda.</li>
+                <li>Юзабилити тестирования на beta-версии готового сайта.</li>
+            </ul>
+
+            <div class="f-row-col-container" style="justify-content: flex-start;">
+                <a class="link-item-outlined" href="#">Кейс</a>&nbsp;&nbsp;
+                <a class="link-item-outlined" href="#">Сайт</a>
+            </div>
+
+
+        </div>
+        <div>
+            <div class="f-row-container">
+                <h4 class="max-width-50per">Jobbrs, UI\UX designer</h4>
+                <p>Март 2021 - Июль 2021</p>
+            </div>
+
+            <p class="max-width-80per t-itallic">В марте 21 года мне написала HR компании Jobbrs на дрибл с предолжением
+                работы. На протяжении 5 месяцев я трудился, выполняя разноплановые задачи в сфере дизана интерфейсов, а
+                именно:</p>
+
+            <ul>
+                <li>Дизайн с нуля и доработка дизайна сайтов, панелей управления и приложений.</li>
+                <li>UX анализ готового дизайна, и формирования рекомендаций для его усовершенствования.</li>
+                <li>Создания с нуля панелей управлений, приложений до стадии hi-fi прототипа.</li>
+                <li>Работа с чужими и создание своих UI-китов.</li>
+            </ul>
+
+            <p class="max-width-80per t-itallic">Большую часть проектов я выполнял один. Но иногда нас обьеденяли в
+                небольшие команды из дизайнеров и менеджеров, где мы вместе работали над задачами.</p>
+
+
+        </div>
+        <div>
+            <div class="f-row-container">
+                <h4 class="max-width-50per">Web design</h4>
+                <p>Декабрь 2019 - Март 2021</p>
+            </div>
+
+            <p class="max-width-80per t-itallic">На протяжении 2020 года я делал много лендингов и небольших сайтов,
+                которые я хочу обьеденить в один проффесиональный отрезок.</p>
+
+            <ul>
+                <li>Создание прототипов и макетов лендингов.</li>
+                <li>Верстка сайтов.</li>
+                <li>Дизайн веб-приложения для сбора отзывов и его верстка.</li>
+                <li>Создание векторной анимации в After Effects и её интеграция на сайт с помощью Lottie.</li>
+                <li>Создание векторной графики и анимаций.</li>
+            </ul>
+
+            <p class="max-width-80per t-itallic">Большую часть проектов я выполнял один. Но иногда нас обьеденяли в
+                небольшие команды из дизайнеров и менеджеров, где мы вместе работали над задачами.</p>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
